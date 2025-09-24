@@ -145,6 +145,10 @@ public class NumberTriangle {
                 }
             }
 
+            if (top == null) {
+                top = currentRow.get(0);
+            }
+
             previousRow = currentRow;
             currentRow = new ArrayList<>();
 
